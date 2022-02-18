@@ -1,0 +1,41 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --title-color:#222;
+    --text-color:#555;
+}   
+*{
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+    font-size:62.5%;
+    line-height:1.6rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* button */
+.btn{
+    height:36px;
+    width:100px;
+    border-radius:4px;
+    outline: none;
+    text-decoration:none;
+    font-size:1.4rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+/* container */
+.container__title{
+    margin-top:67px;
+    font-size:2.4rem;
+    font-weight: 600;
+    color:var(--title-color);
+}
+.container__title-description{
+    margin:18px 0 20px 0;
+    font-size:1.5rem;
+    color:var(--text-color);
+}

@@ -1,0 +1,188 @@
+@media  (max-width:1024px){
+    .hide-on-tablet-mobile{
+        display:none;
+    }
+    .moblie-tablet-bar{
+        display:block;
+    }
+    .slider{
+        margin-left:10px;
+        margin-right:10px;
+    }
+    
+    .container{
+        margin:0 16px;
+    }
+    .container__tips-slide-img{
+        width: 100%;
+        height: 414px;
+        border-radius: 5px;
+        object-fit: cover;
+    
+    }
+    .container__tips-link {
+        margin-bottom:20px;
+    }
+    .container__tips-slide-title{
+        margin-top:4px;
+    }
+    .container__tips-slide-img{
+        margin-top:26px;    
+    }
+    .container__cover-slide{
+        margin-top:12px;
+    }
+    .app__store{
+        width:180px;
+        height:70px;
+     }
+    /* footer */
+    .footer__bank{
+        margin-top:40px;
+        justify-content: space-around;
+    }
+    .footer__visa{
+        margin-left:0;
+    }
+    .footer__certification{
+        margin-left:0;
+    }
+    .footer__follow{
+        margin-left:0;
+    }
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1024px){
+    :root{
+        --width-reponsive-min:740px;
+        --width-reponsive-max:1023px;
+        --height-slider:165px;
+    }
+    .hide-on-tablet{
+        display:none;
+    }
+    .text-align{
+        text-align:center;
+    }
+    .ml-50{
+        margin-left:50px !important;
+    }
+    .slide__btn-icon{
+        font-size:20px;
+    }
+    .container__discovery-app {
+        margin-left:50px;
+    }
+    .container__discovery-home-img{
+        margin-top: 20px;
+    }
+    .container__discovery-link{
+        margin-top:10px;
+    }
+    .google-app{
+     margin-top:unset;
+    }
+    .store-app{
+        margin-right:110px;
+    }
+    .huawei-app{
+        display:block;
+    }
+   
+}
+
+/* mobile */
+@media (max-width:739px){
+    :root{
+        --width-reponsive-min:320px;
+        --width-reponsive-max:739px;
+        --height-slider:88px;
+
+
+    }
+    .hide-on-mobile{
+        display:none;
+    }
+    .header{
+        padding:0 12px;
+    }
+    .search__input{
+        width:100%;
+    }
+    .header__search{
+        width:300px;
+    }
+    .slide__btn{
+        padding:7px 10px;
+    }
+    .slide__btn-icon{
+        font-size:16px;
+    }
+    /* container */
+    .container__header-title{
+        font-size:2.8rem;
+        line-height:1;
+    }
+    .container__discovery-title{
+        font-size:2.2rem;
+    }
+    
+    .container__discovery-img-page{
+        width: 180px;
+        height:unset;
+    }
+    .container__tips-slide-img{
+        width: 100%;
+        object-fit: fill;
+        height: auto;
+    }
+    .container__discovery-app{
+        margin-left:0;
+    }
+    .container__discovery-app-top{
+        flex-direction: column;
+    }
+    .container__discovery-link{
+        margin-top:0;
+    }
+    .store-app{
+        margin-right:0;
+    }
+    .app__store{
+        margin-bottom:12px;
+    }
+    .container__discovery-home-img{
+        width: 100%;
+        height: 100%;
+        margin-top: 30px;
+
+    }
+    /* footer */
+    .footer{
+        margin-top:90px;
+    }
+    .footer__top-wrap{
+        margin:0 30px;
+    }
+    .footer__bank{
+        flex-direction: column;
+    }
+    .footer__bank-card{
+        justify-content: flex-start;
+    }
+    .footer__bank-card-img{
+        margin-left:-20px;
+    }
+    .footer__certification-img{
+        width: 165px;
+        height: 60px;
+        margin-top:0;
+    }
+    .footer__bank-card{
+        margin-bottom:30px;
+    }
+    .footer_copy-right{
+        margin:13px 30px;
+    }
+}
